@@ -19,6 +19,10 @@
 
 }
 
+.half-width p{
+    text-align: left;
+}
+
 .content{
     margin-top: 10%;
     margin-left: 15%;
