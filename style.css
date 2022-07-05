@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-banner{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    
+    
+}
+
+.half-width{
+    width: 50%;
+    
+    
+
+}
+
+.content{
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+.half-width img{
+    width: 100%;
+    background-image: url(images/shapes/Group8450.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+h1{
+    font-size: 45px;
+    margin: 10px 0;
+    color: grey;
+
+}
+
+span{
+    color: orangered;
+}
+
+p{
+    color: grey;
+    margin:30px 0;
+}
+
+.fitness-button{
+    background-image: linear-gradient(orange,red);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+
+.about-me{
+    display: flex;
+    margin-top: 100px;
+    background-image: url(images/shapes/7.png);
+}
+
+.about-me img{
+    width: 50%;
+    margin-left: 18%;
+}
+
+.about-me p{
+    text-align: left;
+    font-size: 20px;
+}
+.about-content{
+    margin-top: 7%;
+}
+
+h3{
+    color: gray;
+    font-size: 24px;
+}
+
+.my-recipies{
+    margin-top: 100px;
+}
+
+.my-recipies h3, p{
+    text-align: center;
+}
+
+.recipe-item{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item{
+    width: 45%;
+    padding: 2%;
+    margin: 1% 2%;
+    box-shadow: 10px 10px 20px grey;
+    border-radius: 20px;
+}
+
+.item img{
+    width: 100%;
+}
+
+.item p{
+    text-align: left;
+}
+
+.recipe-footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    margin-left: 48px;
+    padding: 3% 3% 3% 0;
+    height: 140px;
+    width: 94%;
+    box-shadow: 10px 10px 20px grey;
+    border-radius: 10px;
+}
+
+.recipe-footer h2{
+    font-size: 40px;
+}
+
+footer{
+    width: 100%;
+    height: 250px;
+    padding-top: 30px;
+    background-color: black;
+    margin-top: 30px;
+}
+
+footer h1{
+    text-align: center;
+}
